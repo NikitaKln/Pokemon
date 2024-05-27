@@ -1,0 +1,101 @@
+body {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  background-image: url(/src/assets/background.bmp);
+}
+
+.buttonHolder,
+.pokeCard,
+.listContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.listContainer {
+  flex-wrap: wrap;
+  flex: 7rem;
+  width: 55rem;
+}
+
+.pokeCard {
+  background-color: #b8b8b8;
+  border: 0.5rem groove gray;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.2rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+.pokeButton {
+  margin: 0.5rem;
+  background-color: #b8b8b8;
+  width: 7rem;
+  padding: 0.5rem 2rem;
+  border: 0.5rem groove gray;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.2rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.24);
+  text-decoration: none;
+  color: black;
+}
+
+.navButton {
+  margin: 0.5rem;
+  background-color: #b8b8b8;
+  width: 15rem;
+  padding: 0.5rem 2rem;
+  border: 0.5rem groove gray;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.2rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  float: left;
+  padding-right: 5rem;
+}
+
+.paraWrapper {
+  flex-direction: column;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.cryButton {
+  margin: 0.5rem;
+  background-color: #b8b8b8;
+  height: 4rem;
+  padding: 0.5rem 2rem;
+  border: 0.5rem groove gray;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.2rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+.pokeButton:active,
+.cryButton:active,
+.navButton:active {
+  background-color: #696969;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.24);
+}
