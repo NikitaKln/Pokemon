@@ -1,8 +1,17 @@
-# React + Vite
+# Покемон-библиотека
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Веб-приложение для просмотра информации о покемонах
 
-Currently, two official plugins are available:
+Данный проект нес в себе цель освоить React, React-routing, работу с аудио и динамическую отрисовку интерфейсов
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Запуск локально
+
+Для запуска необходимо:
+
+1. Node.js
+
+Запуск:
+
+```
+npm run dev
+```
